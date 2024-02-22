@@ -8,4 +8,10 @@
         // echo "Conectado!!";
     } else 
         echo "Erro";
+
+    function menssagem($texto, $tipo){
+        echo "<div class='alert alert-$tipo' role='alert'>
+        $texto
+        </div>";
+    }
 ?>
